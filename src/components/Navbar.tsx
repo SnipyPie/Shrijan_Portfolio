@@ -34,6 +34,7 @@ export default function Navbar() {
           <button onClick={() => scrollTo('home')} className="hover:text-white transition-colors">Home</button>
           <button onClick={() => scrollTo('skills')} className="hover:text-white transition-colors">Skills</button>
           <button onClick={() => scrollTo('projects')} className="hover:text-white transition-colors">Projects</button>
+          <button onClick={() => scrollTo('achievements')} className="hover:text-white transition-colors">Achievements</button>
           <button onClick={() => scrollTo('contact')} className="hover:text-white transition-colors">Contact</button>
           <a href="/CV.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Resume</a>
         </div>
