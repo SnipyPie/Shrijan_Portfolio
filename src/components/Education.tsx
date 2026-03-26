@@ -22,7 +22,7 @@ export default function Education() {
     {
       degree: "Matriculation",
       institution: "Touch Wood School, Dehradun Uttarakhand",
-      score: "Percentage: 91.2%",
+      score: "Percentage: 92%",
       type: "School",
       icon: <BookOpen className="w-10 h-10 text-white/20" />
     }
@@ -32,7 +32,7 @@ export default function Education() {
     <section id="education" className="relative bg-[#121212] py-24 px-6 md:px-12 lg:px-24 z-10 border-t border-white/5">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -40,17 +40,17 @@ export default function Education() {
           >
             Education
           </motion.h2>
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scaleX: 0 }}
             whileInView={{ opacity: 1, scaleX: 1 }}
             viewport={{ once: true }}
-            className="w-24 h-1 bg-white/20 rounded-full origin-left" 
+            className="w-24 h-1 bg-white/20 rounded-full origin-left"
           />
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {education.map((edu, i) => (
-            <motion.div 
+            <motion.div
               key={i}
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
